@@ -39,7 +39,7 @@ body {
   background-size:cover;
   margin-bottom: 0; /*no bottom margin*/
 
-  display: flex;
+  display: flex; 
   flex-direction: column;
 }
 
