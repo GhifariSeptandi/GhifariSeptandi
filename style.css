@@ -35,7 +35,8 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  background-color: #31b0d5;
+  background: url('foto.JPG');
+  background-size:cover;
   margin-bottom: 0; /*no bottom margin*/
 
   display: flex; 
