@@ -35,11 +35,12 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  background: url('foto.JPG');
+  background: url('img/foto.jpg');
   background-size:cover;
+  
   margin-bottom: 0; /*no bottom margin*/
 
-  display: flex; 
+  display: flex;
   flex-direction: column;
 }
 
@@ -53,7 +54,7 @@ body {
 }
 
 .jumbotron-text h1 {
-  /*NAME*/
+  /*YOUR NAME*/
   text-transform: uppercase;
   font-weight: 800;
   font-size: 3em;
