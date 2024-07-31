@@ -25,11 +25,41 @@ body {
   text-decoration: none;
 }
 
-.anchor {
-  display: block;
-  position: relative;
-  top: -70px;
-  visibility: hidden;
+.button {
+  display: none;
+  color: white;
+  font-size: 14pt;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0 1rem;
+  }
+
+  .navbar a {
+      display: none;
+      width: 100%;
+      text-align: left;
+  }
+
+  .navbar.active a {
+      display: block;
+      padding: 0.5rem 0;
+      width: 100%;
+      text-align: left;
+  }
+
+  .button {
+      display: block;
+      padding: 0.5rem 1rem;
+  }
 }
 
 /*JUMBOTRON*/
