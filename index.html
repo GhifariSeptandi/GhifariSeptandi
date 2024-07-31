@@ -11,6 +11,7 @@
 
     <!-- BEGIN NAVBAR -->
     <div class="navbar">
+      <span class="button">&#9776;</span>
       <a href="#about"><b>Tentang</b></a>
       <a href="#experience"><b>Pengalaman</b></a>
       <a href="#education"><b>Pendidikan</b></a>
@@ -18,6 +19,15 @@
       <a href="#skills"><b>keterampilan</b></a>
       <a href="#contact"><b>Kontak</b></a>
     </div>
+    <script type="text/javascript">
+      
+      const button = document.querySelector('.button');
+      const navbar = document.querySelector('.navbar');
+  
+      button.addEventListener('click', () => {
+        navbar.classList.toggle('active');
+      });
+    </script>
     <!-- END NAVBAR -->
 
   <section class="bgimage" id="home">
